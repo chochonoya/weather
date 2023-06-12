@@ -15,9 +15,10 @@
       <span>chocho.company </span>
     </div>
     <div class="container">
-      <form onsubmit="getWindyByCity(event)">
+      <form onsubmit="getWeatherByCity(event)">
         <input id="input" placeholder="Enter city" type="text">
         <button type="submit" id="button">search</button>
+        <button onclick="clearInput()">clear</button>
       </form>
       <div id="resultBlock" class="resultBlock">
       </div>
